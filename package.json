@@ -11,5 +11,8 @@
     "prod-css": "node-sass --output-style compressed --include-path scss scss/app.scss css/app.css",
     "watch-css": "nodemon -e scss -x \"npm run dev-css\"",
     "ws": "ws"
+  },
+  "dependencies": {
+    "hoek": "^4.2.1"
   }
 }
