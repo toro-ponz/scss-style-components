@@ -26,12 +26,16 @@ main {
   .hero-box {
     display: flex;
     flex-direction: column;
+    background: #c0e0ff;
     height: 600px;
     h1 {
       font-size: 5.0rem;
       font-weight: bold;
       margin: auto;
       text-align: center;
+      small {
+        font-size: 50%;
+      }
     }
   }
 }
