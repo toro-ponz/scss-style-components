@@ -1,3 +1,5 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
 html {
   height: 100%;
   font-size: 62.5%;
@@ -23,21 +25,6 @@ header {
 main {
   display: block;
   flex: 1;
-  .hero-box {
-    display: flex;
-    flex-direction: column;
-    background: #c0e0ff;
-    height: 600px;
-    h1 {
-      font-size: 5.0rem;
-      font-weight: bold;
-      margin: auto;
-      text-align: center;
-      small {
-        font-size: 50%;
-      }
-    }
-  }
 }
 
 footer {
@@ -51,13 +38,19 @@ footer {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 .block {
   display: block;
 }
 
-@import "node_modules/bootstrap/scss/bootstrap";
-
 @import 'components/checkbox';
 @import 'components/radio';
-
 @import 'view/index';
