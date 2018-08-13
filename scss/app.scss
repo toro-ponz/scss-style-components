@@ -23,6 +23,17 @@ header {
 main {
   display: block;
   flex: 1;
+  .hero-box {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    h1 {
+      font-size: 5.0rem;
+      font-weight: bold;
+      margin: auto;
+      text-align: center;
+    }
+  }
 }
 
 footer {
@@ -34,6 +45,10 @@ footer {
     text-align: center;
     margin: 1.5rem;
   }
+}
+
+.block {
+  display: block;
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
