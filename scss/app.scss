@@ -14,11 +14,7 @@ body {
 }
 
 @import 'view/layout/header';
-
-main {
-  display: block;
-  flex: 1;
-}
+@import 'view/layout/main';
 
 footer {
   background: lightgray;
