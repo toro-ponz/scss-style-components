@@ -15,17 +15,7 @@ body {
 
 @import 'view/layout/header';
 @import 'view/layout/main';
-
-footer {
-  background: lightgray;
-  margin-top: auto;
-  p.copyright {
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 1.5rem;
-  }
-}
+@import 'view/layout/footer';
 
 h1,
 h2,
