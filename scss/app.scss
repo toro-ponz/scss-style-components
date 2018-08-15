@@ -4,13 +4,11 @@
 @import 'tags/body';
 @import 'tags/h';
 
+@import 'classes/block';
+
 @import 'views/layout/header';
 @import 'views/layout/main';
 @import 'views/layout/footer';
-
-.block {
-  display: block;
-}
 
 @import 'components/checkbox';
 @import 'components/radio';
