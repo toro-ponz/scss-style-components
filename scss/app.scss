@@ -13,9 +13,9 @@ body {
   margin: 0;
 }
 
-@import 'view/layout/header';
-@import 'view/layout/main';
-@import 'view/layout/footer';
+@import 'views/layout/header';
+@import 'views/layout/main';
+@import 'views/layout/footer';
 
 h1,
 h2,
@@ -32,4 +32,4 @@ h6 {
 
 @import 'components/checkbox';
 @import 'components/radio';
-@import 'view/index';
+@import 'views/index';
