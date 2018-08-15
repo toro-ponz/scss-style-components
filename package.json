@@ -10,9 +10,14 @@
     "postcss-cli": "^6.0.0"
   },
   "scripts": {
+    "dev": "npm run dev-css && npm run autoprefixer",
+    "prod": "npm run prod-css && npm run autoprefixer",
+    "watch": "npm run watch-css & npm run watch-autoprefixer",
     "dev-css": "node-sass --output-style expanded --include-path scss scss/app.scss css/app.css",
     "prod-css": "node-sass --output-style compressed --include-path scss scss/app.scss css/app.css",
     "watch-css": "nodemon -e scss -x \"npm run dev-css\"",
+    "autoprefixer": "postcss --use autoprefixer --no-map -o css/app.css css/app.css",
+    "watch-autoprefixer": "nodemon -e scss -x \"npm run autoprefixer \"",
     "ws": "ws"
   },
   "dependencies": {
