@@ -13,14 +13,7 @@ body {
   margin: 0;
 }
 
-header {
-  .navbar-brand {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0.5rem;
-  }
-}
+@import 'view/layout/header';
 
 main {
   display: block;
